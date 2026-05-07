@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moov Pet</title>
+    <link rel="stylesheet" href="pet.css">
+    <script src="pet.js" defer></script>
+</head>
+
+<body>
+    <div class="cursor-circular"></div>
+
+    <nav id="menutop">
+        <a href="#">
+            <img src="logo.png" alt="Logo Moov Pet" id="logo1">
+        </a>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#produtos">Produtos</a></li>
+            <li><a href="#contato">Banho e Tosa</a></li>
+            <li><a href="#contato">Consultas</a></li>
+            <li><a href="#contato">Hotel Pet</a></li>
+            <li><a href="#sobre">Sobre nós</a></li>
+        </ul>
+    </nav>
+    <section class="video">        
+            <div class="videotxt">
+                <h1>Bem-vindo à <em>Moov Pet</em>!</h1>
+                <p>O melhor para o seu melhor amigo</p>
+            </div>
+            <div>
+                <video autoplay muted loop>
+                    <source src="petvid.mp4" type="video/mp4">
+                </video>
+            </div>        
+    
+    </section>
+    
+
+    <section id="servicos">
+        <h2>Nossos <em>Serviços</em></h2>
+        <div class="servicostotal">           
+            <!-- Consultas -->
+            <div class="cons">
+                <div class="iconc">
+                    <img src="cons.png" alt="">
+                </div>
+                <div class="const">
+                    <p>Consultas Veterinárias com os melhores profissionais!</p>
+                </div>
+            </div>
+            <!-- Banho e Tosa -->
+            <div class="banho">
+                <div class="iconb">
+                    <img src="ban.png" alt="">
+                </div>
+                <div class="bant">
+                    <p>Banho e Tosa para o seu pet ficar sempre bonito e cheiroso!</p>
+                </div>
+            </div>
+            <!-- Hotel -->
+            <div class="hotel">
+                <div class="iconh">
+                    <img src="hot.png" alt="">
+                </div>
+                <div class="hotel">
+                    <p>Hotel Pet acolhedor e seguro!</p>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <section id="sobre">
+        <div class="sobretotal">
+            <div class="sobree">
+                <h2 class="sobretxt">Cuidamos <br>
+                    <em>seu Pet</em><br>
+                    com amor e carinho!
+                </h2>
+                <div class="sobreeF">
+
+
+                </div>
+            </div>
+            <div class="sobreD">
+                <p> Na Moov Pet, acreditamos que a vida ao lado de um animal de estimação é uma jornada dinâmica e cheia
+                    de alegria. Nossa missão é acompanhar cada passo dessa trajetória, oferecendo soluções completas que
+                    unem tecnologia, bem-estar e o carinho que seu melhor amigo merece.
+                    Nascemos para transformar a rotina de cuidados pet em uma experiência premium e sem complicações.
+                    Com um olhar atento às tendências de design e funcionalidade, selecionamos os melhores produtos e
+                    acessórios para garantir que seu pet tenha sempre o que há de mais moderno e seguro no mercado.</p>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+
+
+
+    <div class="produtos" id="produtos">
+        <h2>Nossos Destaques 🐾</h2>
+
+        <section class="produto-grid">
+            <article class="produto1">
+                <div>
+                    <span class="prod">Cães</span>
+                    <img src="racc.jpg" alt="Ração Premium">
+                    <h3>Ração Premium Especial - 15kg</h3>
+                </div>
+                <div>
+                    <p class="preco">R$ 189,90</p>
+                    <button class="bt-c" data-nome="Ração Premium 15kg" data-preco="189.90">Adicionar ao
+                        Carrinho</button>
+                </div>
+            </article>
+
+            <article class="produto1">
+                <div>
+                    <span class="prod">Gatos</span>
+                    <img src="arrann.jpg" alt="Arranhador" id="arranhador">
+                    <h3>Arranhador Torre com Nicho</h3>
+                </div>
+                <div>
+                    <p class="preco">R$ 245,00</p>
+                    <button class="bt-c" data-nome="Arranhador Torre" data-preco="245.00">Adicionar ao Carrinho</button>
+                </div>
+            </article>
+
+            <article class="produto1">
+                <div>
+                    <span class="prod">Acessórios</span>
+                    <img src="colg.jpg" alt="Coleira">
+                    <h3>Guia Retrátil Ergonômica</h3>
+                </div>
+                <div>
+                    <p class="preco">R$ 59,90</p>
+                    <button class="bt-c" data-nome="Guia Retrátil" data-preco="59.90">Adicionar ao Carrinho</button>
+                </div>
+            </article>
+
+            <article class="produto1">
+                <div>
+                    <span class="prod">Saúde</span>
+                    <img src="shamp.jpg" alt="Shampoo">
+                    <h3>Shampoo Neutro Hipoalergênico</h3>
+                </div>
+                <div>
+                    <p class="preco">R$ 32,00</p>
+                    <button class="bt-c" data-nome="Shampoo Hipoalergênico" data-preco="32.00">Adicionar ao
+                        Carrinho</button>
+                </div>
+            </article>
+        </section>
+    </div>
+        <!-- Contato -->
+        <section id="contato" class="seccontato">
+            <div class="contatoE">
+                <div class="contatoEt">Contato</div>
+                <h2>Tudo o que seu <em>Pet</em> precisa em um só lugar</h2>
+                <p>🩺 Consultas: Porque o bem-estar dele é nossa prioridade. Consultas humanizadas com profissionais que
+                    entendem e amam o que fazem.</p>
+
+                <p>🛁 Banho e Tosa: Relaxamento e higiene completa. Seu peludo sai cheiroso, hidratado e com o visual
+                    renovado,
+                    sempre tratado com paciência e delicadeza.</p>
+
+                <p>🏨 Hotel Pet: As férias perfeitas para o seu amigo. Oferecemos um espaço seguro e confortável para
+                    ele se
+                    hospedar com todo o mimo e atenção que recebe em casa.</p>
+
+            </div>
+            <!-- Formulário de Contato -->
+            <div class="contatoD">
+            
+                <form class="formcontato" onsubmit="enviarParaWhatsapp(event)">
+                    <div class="contatof">
+                        <label>Seu Nome</label>
+                        <input type="text" id="nome" placeholder="Como Posso te chamar?" required>
+                    </div>
+                    <div class="contatof">
+                        <label>Seu Email</label>
+                        <input type="email" id="email" placeholder="Digite seu email" required>
+                    </div>
+                    <div>
+                        <label for="servicos">Escolha o serviço:</label>
+                        <select name="servicos" id="servicos">
+                            <option value="Consulta">Consulta</option>
+                            <option value="Banho e Tosa">Banho e Tosa</option>
+                            <option value="Hotel Pet">Hotel Pet</option>
+                            <option value="Outros">Outros</option>
+                        </select>
+                    </div>
+            
+                    <div class="contatof">
+                        <label>Mensagem</label>
+                        <textarea id="mensagem" placeholder="Como podemos ajudar seu pet?"></textarea>
+                    </div>
+            
+                    <button type="submit" class="contatoB">Enviar Mensagem</button>
+                </form>
+            </div>
+        </section>
+
+
+
+
+        <!-- Painel do Carrinho (Escondido por padrão) -->
+        <div id="carrinho-lateral" class="carrinho-hidden">
+            <div class="carrinho-header">
+                <h3>Seu Carrinho</h3>
+                <button onclick="toggleCarrinho()" class="close-btn">&times;</button>
+            </div>
+
+            <ul id="lista-carrinho"></ul>
+
+            <div class="carrinho-footer">
+                <p><strong>Total: R$ <span id="valor-total">0,00</span></strong></p>
+                <button class="btn-finalizar">Finalizar Compra</button>
+            </div>
+        </div>
+
+        <!-- Botão Flutuante -->
+        <div id="cart-button" onclick="toggleCarrinho()">
+            🛒 <span id="cart-count">0</span>
+        </div>
+
+        <footer>
+            <p>© 2026 Moov Pet — Direitos reservados</p>
+            <div class="redes">
+                <a href="#" target="_blank">Facebook</a>
+                <a href="#" target="_blank">Instagram</a>
+            </div>
+        </footer>
+</body>
+
+</html>
